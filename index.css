@@ -10,7 +10,7 @@ padding-top: 160px;
 }
 .right {
     width: 50vw;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 body{
     background-color: white;
@@ -33,8 +33,7 @@ body{
     animation-name: moved;
     animation-duration: 2s;
     padding-right: 50px;
-    margin-bottom: 40px;
-    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 @keyframes move {
