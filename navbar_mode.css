@@ -183,6 +183,7 @@ nav.hide_menu {
     left: 0;
     top: 40;
     margin-left: 50%;
+    color: #694420;
     transform: translate(-50%, -60%);
     
 }
