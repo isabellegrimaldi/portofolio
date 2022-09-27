@@ -1,0 +1,157 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="monstyle.css">
+
+    <link rel="stylesheet" href="navbar_mode.css">
+    <link rel="stylesheet" href="project.css">
+    <script src="index.js"></script>
+    <script src="nav_bar.js"></script>
+    <script src="https://kit.fontawesome.com/8326d13a9c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+
+</head>
+
+<script src=" https://code.jquery.com/jquery-3.6.0.min.js
+"></script>
+
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-containerbis">
+
+
+                <div id="marque">
+
+                    <h4 id="titre_nav"><a href="index.html"> <strong>Isabelle Grimaldi </strong></a></h4>
+
+                </div>
+
+
+            </div>
+            <div class="nav-containerbisbas">
+                <a href="index.html#projet">
+                    <div class="left-wrapper1 left-wrapper">
+                        About me
+                    </div>
+                </a>
+                <div class="flex">
+                    <div class="left-wrapper4 left-wrapper">
+                        Contact
+                    </div>
+                    <div class="left-wrapper2 left-wrapper">
+                        <a href="projects.html">My projects</a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </nav>
+    <main>
+        <div class="party">
+            <h2>HALF-BIKE</h2>
+            <div class="menu">
+
+                <div class="caroussel">
+                    <figure>
+                        <img src="hb1.jpg" />
+                        <img src="hb2.jpg" />
+
+                        <img src="hb3.png" />
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="party2">
+            <div class="context">
+                <h3>CONTEXT</h3>
+                <p>During my studies at Centrale Lille, I took a course on plastic deformation manufacturing. During
+                    this course, we carried out a final project in groups of 6 students. This project consisted of
+                    modelling and manufacturing a half bike. We chose to make an advertising half bike for the Friterie
+                    Meunier brand, a well-known french fries company in the north of France. </p>
+            </div>
+            <div class="modelisation">
+                <h3>MODELISATION</h3>
+                <p>We modelled the half-bike using Catia5 and Onshape software. I learnt how to use the sheet metal
+                    modul option of Onshape to make construction drawings adapted to the bending machine. You can see
+                    some of these drawings below. <br>
+                    We also used the 3D printer to make some parts such as the bottle holder.</p>
+                <div class=" flex">
+                    <img src="hb4.png" alt="">
+                    <img src="hb9.png" alt="">
+                    <img src="hb10.png" alt="">
+                </div>
+            </div>
+            <div class="result">
+                <h3>CONSTRUCTION AND RESULT</h3>
+                <p>We made our half bike from sheet metal and PLA. I learned how to cut, bend and manipulate metal using
+                    water jet cutters, bending machines and welding.</p>
+                <div class=" flex">
+                    <img src="hb5.png" alt="">
+                    <img src="hb8.jpg" alt="">
+                    <img src="hb7.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+
+
+        // show navbar on scroll up
+
+
+        $('.left-wrapper2 , .sous-menu2').hover(
+            function () {
+                $('.sous-menu2').addClass('active');
+                console.log('ok');
+            }, function () {
+                $('.sous-menu2').removeClass('active');
+            }
+        )
+
+
+
+
+
+        var navHeight = $('nav').height();
+        var topValue = -1 * navHeight;
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function (navHeight) {
+            var currentScrollPos = window.pageYOffset;
+            if ((prevScrollpos > currentScrollPos)) {
+                $('nav').removeClass('hide_menu');
+
+            } else {
+                $('nav').addClass('hide_menu');
+            }
+            prevScrollpos = currentScrollPos;
+        };
+
+
+
+
+    </script>

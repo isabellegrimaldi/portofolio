@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="monstyle.css">
+
+    <link rel="stylesheet" href="navbar_mode.css">
+    <link rel="stylesheet" href="project.css">
+    <script src="index.js"></script>
+    <script src="nav_bar.js"></script>
+    <script src="https://kit.fontawesome.com/8326d13a9c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+
+</head>
+
+<script src=" https://code.jquery.com/jquery-3.6.0.min.js
+"></script>
+
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-containerbis">
+
+
+                <div id="marque">
+
+                    <h4 id="titre_nav"><a href="index.html"> <strong>Isabelle Grimaldi </strong></a></h4>
+
+                </div>
+
+
+            </div>
+            <div class="nav-containerbisbas">
+                <a href="index.html#projet">
+                    <div class="left-wrapper1 left-wrapper">
+                        About me
+                    </div>
+                </a>
+                <div class="flex">
+                    <div class="left-wrapper4 left-wrapper">
+                        Contact
+                    </div>
+                    <div class="left-wrapper2 left-wrapper">
+                        <a href="projects.html">My projects</a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </nav>
+    <main>
+        <div class="party">
+            <h2>FEEL FOOD</h2>
+
+
+            <img id="pres" src="f1.png" alt="">
+
+        </div>
+        <div class="party2">
+            <div class="context">
+                <h3>CONTEXT</h3>
+                <p>I decided tolearn by myself how to create websites and applications. For this I decided to code a web
+                    application to search for ecological food products. So I created Feel Food, an application that
+                    allows you to search for products, scan products to find out more about them and also compare
+                    products between them. This project allowed me to learn HTML, CSS, Javascript but also to manipulate
+                    data via API. </p>
+            </div>
+            <div class="modelisation">
+                <h3>PROCESS</h3>
+                <p>I made this project with the open source API open food fact. I also made all the graphics by hand
+                    using Illustrator.</p>
+
+            </div>
+            <div class="result">
+                <h3>RESULT</h3>
+                <p>Here is an overview of the result. The application is currently only available in French but I will
+                    probably improve it later.</p>
+                <iframe id="inlineFrameExample" title="Inline Frame Example" width="600" height="900"
+                    src="https://feel-food.vercel.app/">
+                </iframe>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+
+
+        // show navbar on scroll up
+
+
+        $('.left-wrapper2 , .sous-menu2').hover(
+            function () {
+                $('.sous-menu2').addClass('active');
+                console.log('ok');
+            }, function () {
+                $('.sous-menu2').removeClass('active');
+            }
+        )
+
+
+
+
+
+        var navHeight = $('nav').height();
+        var topValue = -1 * navHeight;
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function (navHeight) {
+            var currentScrollPos = window.pageYOffset;
+            if ((prevScrollpos > currentScrollPos)) {
+                $('nav').removeClass('hide_menu');
+
+            } else {
+                $('nav').addClass('hide_menu');
+            }
+            prevScrollpos = currentScrollPos;
+        };
+
+
+
+
+    </script>

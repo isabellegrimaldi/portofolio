@@ -1,0 +1,165 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="monstyle.css">
+
+    <link rel="stylesheet" href="navbar_mode.css">
+    <link rel="stylesheet" href="project.css">
+    <script src="index.js"></script>
+    <script src="nav_bar.js"></script>
+    <script src="https://kit.fontawesome.com/8326d13a9c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+
+</head>
+
+<script src=" https://code.jquery.com/jquery-3.6.0.min.js
+"></script>
+
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-containerbis">
+
+
+                <div id="marque">
+
+                    <h4 id="titre_nav"><a href="index.html"> <strong>Isabelle Grimaldi </strong></a></h4>
+
+                </div>
+
+
+            </div>
+            <div class="nav-containerbisbas"><a href="index.html#projet">
+                    <div class="left-wrapper1 left-wrapper">
+                        About me
+                    </div>
+                </a>
+                <div class="flex"> <a href="contact.html">
+                        <div class="left-wrapper4 left-wrapper">
+                            Contact
+                        </div>
+                    </a>
+                    <div class="left-wrapper2 left-wrapper">
+                        <a href="projects.html">My projects</a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </nav>
+    <main>
+        <div class="party">
+            <h2>URBAN WIND TURBINE CAPTURING CO2</h2>
+            <div class="menu">
+
+                <div class="caroussel">
+                    <figure>
+                        <img src="t10.png" />
+                        <img src="t4.png" />
+
+                        <img src="t9.png" />
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="party2">
+            <div class="context">
+                <h3>CONTEXT</h3>
+                <p>As part of my studies at Centrale Lille, I participated in the construction of an urban
+                    wind turbine capable of capturing CO2. This project was given to us by the company HIVE electric
+                    (battery manufacturer), eagers to use their batteries for an ecological purpose. We formed a group
+                    of 10 students volunteer to carry out this project for one and a half years. We imagined, designed
+                    and built a wind turbine capable of capturing CO2. I really enjoyed this project for its creative
+                    aspect almost research-like approach. <br>
+                    Our system consists of a wind turbine that provides energy and a capture bag that captures the CO2
+                    and stores it in a balloon. Our capture system works thanks to the use of microporous materials.
+                </p>
+            </div>
+            <div class="modelisation">
+                <h3>MODELISATION</h3>
+                <p>We modelled this system with Onshape and Catia5. Thanks to these softwares we made definition
+                    drawings which helped us to machine and assemble each part.Below you can see the definition drawings
+                    of the wind turbine on the left and in the middle and on the right an onshape model of the capture
+                    bag.</p>
+                <div class=" flex">
+                    <img src="t1.png" alt="">
+                    <img src="t2.png" alt="">
+                    <img src="t3.png" alt="">
+                </div>
+            </div>
+            <div class="result">
+                <h3>CONSTRUCTION AND RESULT</h3>
+                <p>We realized our prototype thanks to the funds donated by the company HIVE electric and thanks to the
+                    laboratory and equipment of Centrale Lille. The capture bag was made of aluminium for thermal
+                    reasons and the wind turbine of steel.</p>
+                <video id="background-video" playsinline autoplay loop muted>
+
+                    <source src="prototype.mp4" type="video/mp4">
+
+                    Your browser does not support the video tag.
+
+                </video>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+
+
+        // show navbar on scroll up
+
+
+        $('.left-wrapper2 , .sous-menu2').hover(
+            function () {
+                $('.sous-menu2').addClass('active');
+                console.log('ok');
+            }, function () {
+                $('.sous-menu2').removeClass('active');
+            }
+        )
+
+
+
+
+
+        var navHeight = $('nav').height();
+        var topValue = -1 * navHeight;
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function (navHeight) {
+            var currentScrollPos = window.pageYOffset;
+            if ((prevScrollpos > currentScrollPos)) {
+                $('nav').removeClass('hide_menu');
+
+            } else {
+                $('nav').addClass('hide_menu');
+            }
+            prevScrollpos = currentScrollPos;
+        };
+
+
+
+
+    </script>

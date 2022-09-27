@@ -1,0 +1,220 @@
+#container_rg{
+    display: flex;
+justify-content: space-between;
+margin: 0%;
+padding-top: 160px;
+height: 100vh;
+overflow: hidden;
+
+
+}
+.right {
+    width: 50vw;
+    padding-top: 150px;
+}
+body{
+    background-color: white;
+    
+}
+.img_intro{
+  
+    animation-duration: 2s;
+    margin-left: 230px;
+    margin-bottom: 0px;
+    animation-name: move;
+}
+.flex{
+    display: flex;
+
+}
+
+.intro{
+    margin-left: 20px;
+    animation-name: moved;
+    animation-duration: 2s;
+    padding-right: 50px;
+}
+
+@keyframes move {
+    from {
+        margin-left: -100%;
+        }
+      to {
+       
+        margin-left: 230px;
+      }
+      
+  }
+
+  @keyframes moved {
+    from {
+        margin-left: 100%;
+        }
+      to {
+       
+        margin-left: 20px;
+      }
+      
+  }
+
+  #projet {
+      height: 100vh;
+      background-color: #D08539;
+      display: flex;
+      overflow-y: hidden !important;
+     
+      
+   
+  }
+
+  #projet_text{
+    animation-name: textanim;
+    animation-duration: 2s;
+    writing-mode: vertical-rl;
+text-orientation: sideways-left;
+    margin-left: 0px;
+    padding-top: 45%;
+    font-size: 5rem;
+   color: white;
+    transform: translateY(-50%);
+    position: relative;
+  }
+
+  @keyframes textanim {
+    from {
+      padding-top: 100%;
+        }
+      to {
+       
+        padding-top: 45%;
+      }
+      
+  }
+
+
+  
+  .container {
+    position: relative;
+    padding-top: 200px;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+  }
+  
+  span {
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  
+  .carousel__face:nth-child(1) {
+    margin: auto;
+    background-image: url("eolienne.jfif");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("spoon.png");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("halfbike.jpg");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    margin: auto;
+    background-image: url("logo.jpg");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("gaspard.jpg");
+    margin: auto;
+   
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("eolienne.jfif");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("spoon.png");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("halfbike.jpg");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("logo.jpg");
+    transform: rotateY(320deg) translateZ(430px); }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+
+  #flexx{
+    display: flex;
+    padding-top: 10px;
+    padding-inline: 50px;
+    color: white;
+  }
+  #flexx h2{
+    margin-block: 20px;
+    margin-top: 40px;
+    
+  }
+  #hobbies{
+    margin-inline: 20px;
+    font-weight: 10;
+  }
+  #education{
+    margin-inline: 20px;
+    font-weight: 10;
+  }
+  #flexx h3{
+    font-size: 1rem;
+    margin-top: 30px;
+    font-weight: 1 !important;
+    
+  }
+ 
+#flexx p{
+font-size: 0.9rem;
+}
+#titre{
+  font-size: 1rem!important;
+  margin-top: 30px;
+  font-weight: 500;
+
+  
+}
+
+
+  .rond {
+   
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background: black;
+   }
+
+   

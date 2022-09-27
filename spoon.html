@@ -1,0 +1,150 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="monstyle.css">
+
+    <link rel="stylesheet" href="navbar_mode.css">
+    <link rel="stylesheet" href="project.css">
+    <script src="index.js"></script>
+    <script src="nav_bar.js"></script>
+    <script src="https://kit.fontawesome.com/8326d13a9c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+
+</head>
+
+<script src=" https://code.jquery.com/jquery-3.6.0.min.js
+"></script>
+
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-containerbis">
+
+
+                <div id="marque">
+
+                    <h4 id="titre_nav"><a href="index.html"> <strong>Isabelle Grimaldi </strong></a></h4>
+
+                </div>
+
+
+            </div>
+            <div class="nav-containerbisbas"><a href="index.html#projet">
+                    <div class="left-wrapper1 left-wrapper">
+                        About me
+                    </div>
+                </a>
+                <div class="flex"> <a href="contact.html">
+                        <div class="left-wrapper4 left-wrapper">
+                            Contact
+                        </div>
+                        <div class="left-wrapper2 left-wrapper">
+                            <a href="projects.html">My projects</a>
+
+                        </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </nav>
+    <main>
+        <div class="party">
+            <h2>ANTI-SHAKING SPOON</h2>
+            <img id="pres" src="S1.jpg" alt="">
+        </div>
+        <div class="party2">
+            <div class="context">
+                <h3>CONTEXT</h3>
+                <p>For several months, I worked with a team of 7 people to develop and create an anti-shaking spoon.
+                    This spoon allows people with essential tremor, a disease three times more common than Parkinson's
+                    disease but much less known. Thanks to this stabilised multi-purpose tool co-designed with
+                    patients, they can feed themselves without risk of tipping over thanks to two miniature servo-motors
+                    that compensate for their tremors, and thus limit their complexes when eating socially!
+                </p>
+            </div>
+            <div class="modelisation">
+                <h3>MODELISATION</h3>
+                <p>To model our spoon, we used Onshape and iteratively changed the design of the spoon with the agile
+                    method in direct contact with the patients. We lightened the spoon, changed its size, its depth,
+                    etc...</p>
+                <div class=" flexc">
+                    <img src="s2.png" alt="">
+                    <img src="s3.png" alt="">
+
+                </div>
+            </div>
+            <div class="result">
+                <h3>CONSTRUCTION AND RESULT</h3>
+                <p>We built our prototype in PLA using a 3D printer. To implement our algorithm allowing the spoon to
+                    stabilize, we used a micro arduino board. You can see below a demonstration of our final prototype.
+                </p>
+                <video id="background-video2" playsinline autoplay loop muted>
+
+                    <source src="Demonstration.MOV">
+
+                    Your browser does not support the video tag.
+
+                </video>
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+
+
+        // show navbar on scroll up
+
+
+        $('.left-wrapper2 , .sous-menu2').hover(
+            function () {
+                $('.sous-menu2').addClass('active');
+                console.log('ok');
+            }, function () {
+                $('.sous-menu2').removeClass('active');
+            }
+        )
+
+
+
+
+
+        var navHeight = $('nav').height();
+        var topValue = -1 * navHeight;
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function (navHeight) {
+            var currentScrollPos = window.pageYOffset;
+            if ((prevScrollpos > currentScrollPos)) {
+                $('nav').removeClass('hide_menu');
+
+            } else {
+                $('nav').addClass('hide_menu');
+            }
+            prevScrollpos = currentScrollPos;
+        };
+
+
+
+
+    </script>

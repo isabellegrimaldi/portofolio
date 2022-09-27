@@ -1,0 +1,148 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="monstyle.css">
+
+    <link rel="stylesheet" href="navbar_mode.css">
+    <link rel="stylesheet" href="projects.css">
+    <script src="index.js"></script>
+    <script src="nav_bar.js"></script>
+    <script src="https://kit.fontawesome.com/8326d13a9c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+
+</head>
+
+<script src=" https://code.jquery.com/jquery-3.6.0.min.js
+"></script>
+
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="nav-containerbis">
+
+
+                <div id="marque">
+
+                    <a href="index.html">
+                        <h4 id="titre_nav"> <strong>Isabelle Grimaldi </strong></h4>
+                    </a>
+
+                </div>
+
+
+            </div>
+            <div class="nav-containerbisbas"><a href="index.html#projet">
+                    <div class="left-wrapper1 left-wrapper">
+                        About me
+                    </div>
+                </a>
+                <div class="flex">
+                    <div class="left-wrapper4 left-wrapper">
+                        <a href="contact.html">
+                            Contact</a>
+                    </div>
+                    <div class="left-wrapper2 left-wrapper">
+                        <a href="projects.html">My projects</a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </nav>
+
+    <main>
+
+        <div class="case_project">
+            <a href="turbine.html"><img class="img" src="eolienne1.png" alt=""></a>
+            <h2>URBAN WIND TURBINE CAPTURING CO2
+
+            </h2>
+        </div>
+
+        <div class="case_project">
+
+            <a href="spoon.html"><img class="img" src="spoon1.png" alt=""></a>
+            <h2>ANTI-SHAKING SPOON
+
+            </h2>
+        </div>
+
+        <a href="half.html">
+            <div class="case_project">
+                <img src="bike1.png" alt="">
+                <h2>HALF-BIKE</h2>
+            </div>
+        </a>
+        <a href="gaspard.html">
+            <div class="case_project">
+                <img src="gaspard1.png" alt="">
+                <h2>TRACABILITY OF GASPARD</h2>
+            </div>
+        </a>
+        <a href="feelfood.html">
+            <div class="case_project">
+                <img src="logo1.png" alt="">
+                <h2>FEEL FOOD</h2>
+            </div>
+        </a>
+    </main>
+
+    <script>
+
+
+        // show navbar on scroll up
+
+
+        $('.left-wrapper2 , .sous-menu2').hover(
+            function () {
+                $('.sous-menu2').addClass('active');
+                console.log('ok');
+            }, function () {
+                $('.sous-menu2').removeClass('active');
+            }
+        )
+
+
+
+
+
+        var navHeight = $('nav').height();
+        var topValue = -1 * navHeight;
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function (navHeight) {
+            var currentScrollPos = window.pageYOffset;
+            if ((prevScrollpos > currentScrollPos)) {
+                $('nav').removeClass('hide_menu');
+
+            } else {
+                $('nav').addClass('hide_menu');
+            }
+            prevScrollpos = currentScrollPos;
+        };
+
+
+
+
+    </script>

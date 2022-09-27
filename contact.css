@@ -1,0 +1,35 @@
+img{
+    display: block;
+    margin: auto;
+    
+    width: 300px;
+    
+}
+#main{
+   display: flex;
+    justify-content:center;
+    margin-top: 190px;
+    flex-grow: 1;
+}
+
+#contact{
+    background-color: #D08539;
+    color: white;
+    width: 50vw;
+    margin-left: 20px;
+    
+    padding: 30px;
+    
+}
+
+#a{
+    color: white !important;
+}
+
+h4{
+    padding-top: 20px;
+}
+h3{
+    text-align: center;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+main{
+    margin-top: 150px;
+   
+}
+
+.case_project img{
+    display: block;
+    margin: auto;
+    width: 70vw;
+    
+    
+}
+
+.case_project h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: 10;
+    color: #D08539;
+    margin-bottom: 30px;
+}
+
+.case_project:hover{
+ opacity: 90%;
+    
+    
+}
+
