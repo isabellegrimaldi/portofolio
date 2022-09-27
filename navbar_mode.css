@@ -183,7 +183,7 @@ nav.hide_menu {
     left: 0;
     top: 50;
     margin-left: 50%;
-    color: #694420;
+    color: #000000;
     transform: translate(-50%, -60%);
     
 }
@@ -324,4 +324,5 @@ border-radius: 5px;
 
 h4{
     font-size: 1.4rem;
+    padding: 20px;
 }
