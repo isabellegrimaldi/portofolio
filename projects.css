@@ -26,3 +26,8 @@ main{
     
 }
 
+@media (max-width: 800px) {
+    #titre_nav {
+     font-size: 1.2rem;
+      
+    }}
