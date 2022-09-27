@@ -74,7 +74,7 @@ body{
     writing-mode: vertical-rl;
 text-orientation: sideways-left;
     margin-left: 0px;
-    padding-top: 45%;
+    padding-top: 55%;
     font-size: 5rem;
    color: white;
     transform: translateY(-50%);
@@ -87,7 +87,7 @@ text-orientation: sideways-left;
         }
       to {
        
-        padding-top: 45%;
+        padding-top: 55%;
       }
       
   }
@@ -177,7 +177,14 @@ text-orientation: sideways-left;
     padding-top: 10px;
     padding-inline: 50px;
     color: white;
+    font-weight: 200;
+    
+    
   }
+
+ 
+
+
   #flexx h2{
     margin-block: 20px;
     margin-top: 40px;
@@ -190,21 +197,22 @@ text-orientation: sideways-left;
   #education{
     margin-inline: 20px;
     font-weight: 10;
+    font-size: 20px !important;
   }
   #flexx h3{
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-top: 30px;
     font-weight: 1 !important;
     
   }
  
 #flexx p{
-font-size: 0.9rem;
+font-size: 1.1rem;
 }
 #titre{
-  font-size: 1rem!important;
+  font-size: 1.1rem!important;
   margin-top: 30px;
-  font-weight: 500;
+ 
   
 
   
