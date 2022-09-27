@@ -176,7 +176,9 @@ nav.hide_menu {
     transform: translate(0, -100%);
     
 }
-
+#titre_nav{
+    text-align: center;
+  }
 
 #marque{
     position: absolute;
@@ -185,7 +187,7 @@ nav.hide_menu {
     margin-left: 50%;
     color: #000000;
     transform: translate(-50%, -60%);
-    
+    width: 100%;
 }
 #marque h1{
     color: white;
@@ -324,5 +326,5 @@ border-radius: 5px;
 
 h4{
     font-size: 1.4rem;
-    padding: 20px;
+
 }
