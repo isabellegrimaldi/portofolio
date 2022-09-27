@@ -102,10 +102,12 @@ video{
   width: 20vw;
 }
 
+
+
 #pres{
   margin: auto;
   display: block;
-  height: 60vh;
+  width: 55vw;
 }
 
 iframe{
@@ -120,3 +122,12 @@ iframe{
   transform: scale(0.7);
 
 }
+
+@media (max-width: 800px) {
+  iframe {
+   width: 80vw;
+   height: 80vh;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   margin-top: 20px;
+  }}

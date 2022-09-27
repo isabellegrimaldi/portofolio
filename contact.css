@@ -33,3 +33,20 @@ h3{
     text-align: center;
     padding-bottom: 20px;
 }
+
+@media (max-width: 800px) {
+    #main {
+      flex-direction: column;
+      
+    }
+  }
+
+  @media (max-width: 800px) {
+    #contact {
+      display: block;
+      margin: auto !important;
+      font-size: 10px;
+      
+      
+    }
+  }

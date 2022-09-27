@@ -3,8 +3,8 @@
 justify-content: space-between;
 margin: 0%;
 padding-top: 160px;
-height: 100vh;
-overflow: hidden;
+
+
 
 
 }
@@ -20,7 +20,7 @@ body{
   
     animation-duration: 2s;
     margin-left: 230px;
-    margin-bottom: 0px;
+    margin-bottom: -5px;
     animation-name: move;
 }
 .flex{
@@ -33,6 +33,7 @@ body{
     animation-name: moved;
     animation-duration: 2s;
     padding-right: 50px;
+    margin-bottom: 20px;
 }
 
 @keyframes move {
@@ -58,7 +59,7 @@ body{
   }
 
   #projet {
-      height: 100vh;
+      
       background-color: #D08539;
       display: flex;
       overflow-y: hidden !important;
@@ -204,6 +205,7 @@ font-size: 0.9rem;
   font-size: 1rem!important;
   margin-top: 30px;
   font-weight: 500;
+  
 
   
 }
@@ -217,4 +219,61 @@ font-size: 0.9rem;
     background: black;
    }
 
-   
+   @media (max-width: 800px) {
+    #container_rg {
+      flex-direction: column;
+     
+      
+    }}
+
+    @media (max-width: 800px) {
+      .img_intro {
+       width: 80vw;
+       margin: auto;
+       animation: none;
+       display: block;
+        
+      }}
+
+      #titre_nav{
+        text-align: center;
+      }
+
+      @media (max-width: 800px) {
+        #titre_nav {
+         font-size: 1.2rem;
+          
+        }}
+
+        @media (max-width: 800px) {
+          .right {
+           animation: none!important;
+           padding-top: 20px !important;
+           margin: auto;
+           
+           display: block !important;
+           width: 100%;
+           text-align: center;
+          }}
+          @media (max-width: 800px) {
+            .intro {
+             animation: none!important;
+             margin: auto;
+             display: block !important;
+             padding-right: 0px;
+             padding: 30px;
+            }}
+
+            @media (max-width: 800px) {
+              #projet_text {
+               animation: none!important;
+               margin: auto;
+               display: none;
+               
+              }}
+
+              @media (max-width: 800px) {
+                #flexx {
+                 flex-direction: column;
+                 margin-bottom: 20px;
+                }}
