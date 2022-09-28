@@ -177,26 +177,50 @@ text-orientation: sideways-left;
     padding-top: 10px;
     padding-inline: 50px;
     color: white;
-    font-weight: 200;
-    
+   
     
   }
 
- 
+  .ligne{
+    display: flex;
+    flex-direction: row;
+margin-top: 30px;
+  }
+  .logo{
+   display: block;
+    text-align: center;
+   
+  }
 
+  .logov{
+    display: block;
+     text-align: center;
+     width: 50px;
+    
+   }
+  .logo img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 40px;
+    vertical-align: middle;}
+.explication{
+  margin-left: 50px;
+  font-weight: 10 !important;
+}
 
   #flexx h2{
     margin-block: 20px;
     margin-top: 40px;
+    margin-left: 50px;
     
   }
   #hobbies{
     margin-inline: 20px;
-    font-weight: 10;
+    font-weight: 400;
   }
   #education{
     margin-inline: 20px;
-    font-weight: 10;
+    font-weight: 400;
     font-size: 20px !important;
   }
   #flexx h3{
@@ -211,7 +235,7 @@ font-size: 1.1rem;
 }
 #titre{
   font-size: 1.1rem!important;
-  margin-top: 30px;
+ 
  
   
 
@@ -227,14 +251,14 @@ font-size: 1.1rem;
     background: black;
    }
 
-   @media (max-width: 800px) {
+   @media (max-width: 1130px) {
     #container_rg {
       flex-direction: column;
      
       
     }}
 
-    @media (max-width: 800px) {
+    @media (max-width: 1130px) {
       .img_intro {
        width: 80vw;
        margin: auto;
@@ -243,17 +267,15 @@ font-size: 1.1rem;
         
       }}
 
-      #titre_nav{
-        text-align: center;
-      }
+     
 
-      @media (max-width: 800px) {
+      @media (max-width: 1130px) {
         #titre_nav {
          font-size: 1.2rem;
           
         }}
 
-        @media (max-width: 800px) {
+        @media (max-width: 1130px) {
           .right {
            animation: none!important;
            padding-top: 20px !important;
@@ -263,7 +285,7 @@ font-size: 1.1rem;
            width: 100%;
            text-align: center;
           }}
-          @media (max-width: 800px) {
+          @media (max-width: 1130px) {
             .intro {
              animation: none!important;
              margin: auto;
@@ -272,7 +294,7 @@ font-size: 1.1rem;
              padding: 30px;
             }}
 
-            @media (max-width: 800px) {
+            @media (max-width: 1130px) {
               #projet_text {
                animation: none!important;
                margin: auto;
@@ -280,7 +302,7 @@ font-size: 1.1rem;
                
               }}
 
-              @media (max-width: 800px) {
+              @media (max-width: 1130px) {
                 #flexx {
                  flex-direction: column;
                  margin-bottom: 20px;
