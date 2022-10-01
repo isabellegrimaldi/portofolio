@@ -2,11 +2,14 @@
     display: flex;
 justify-content: space-between;
 margin: 0%;
-padding-top: 160px;
 
 
 
 
+
+}
+main{
+  margin-bottom: 200px;
 }
 .right {
     width: 50vw;
@@ -63,6 +66,8 @@ body{
       background-color: #D08539;
       display: flex;
       overflow-y: hidden !important;
+      padding-top: 100px;
+      padding-bottom: 100px;
      
       
    
@@ -240,6 +245,19 @@ font-size: 1.1rem;
   
 
   
+}
+
+
+#projet_h2{
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 1px;
+  margin-bottom: 70px;
+  
+  
+  font-weight: 10;
+  color: #D08539;
+ 
 }
 
 
