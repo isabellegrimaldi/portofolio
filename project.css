@@ -139,7 +139,7 @@ iframe{
 
   @media (max-width: 1130px) {
     h2{
-      font-size: 25px;
+      font-size: 20px;
       margin-top: 20px;
     }
 
@@ -152,5 +152,16 @@ iframe{
 
     h3{
       padding-top: 10px;
+    }
+    .party2 .flex{
+      flex-direction: column;
+      margin-block: 20px;
+    }
+
+    .flex img{
+      width: 70vw;
+      display: block;
+      margin: auto;
+      margin-block: 10px;
     }
     }
