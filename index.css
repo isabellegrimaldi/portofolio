@@ -274,7 +274,9 @@ font-size: 1.1rem;
       flex-direction: column;
      
       
-    }}
+    }
+  
+  }
 
     @media (max-width: 1130px) {
       .img_intro {
@@ -324,6 +326,8 @@ font-size: 1.1rem;
                 #flexx {
                  flex-direction: column;
                  margin-bottom: 20px;
-                }}
+                 padding: 0px;
+                }
+               }
 
 

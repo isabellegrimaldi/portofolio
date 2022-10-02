@@ -60,7 +60,7 @@ main{
 .party{
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
 
 }
 
@@ -82,7 +82,7 @@ padding-top: 50px;
  width: 25%;
 }
 .flex{
-  margin-top: 20px;
+  
   display: flex;
   justify-content: space-between;
 }
@@ -127,7 +127,7 @@ iframe{
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1130px) {
   iframe {
    width: 80vw;
    height: 80vh;
@@ -137,4 +137,20 @@ iframe{
   }}
 
 
-  
+  @media (max-width: 1130px) {
+    h2{
+      font-size: 25px;
+      margin-top: 20px;
+    }
+
+    .menu{
+      width: 90vw;
+    }
+    .party{
+      height: 50vh;
+    }
+
+    h3{
+      padding-top: 10px;
+    }
+    }
