@@ -33,10 +33,16 @@ body{
 
 .intro{
     margin-left: 20px;
+   
     animation-name: moved;
     animation-duration: 2s;
     padding-right: 50px;
     margin-bottom: 20px;
+}
+
+.intro p{
+    text-align: justify;
+  text-justify: inter-word;
 }
 
 @keyframes move {
@@ -62,8 +68,8 @@ body{
   }
 
   #projet {
+    background: linear-gradient( #d08539, #d0853900);
       
-      background-color: #D08539;
       display: flex;
       overflow-y: hidden !important;
       padding-top: 70px;
@@ -181,7 +187,7 @@ text-orientation: sideways-left;
     display: flex;
     padding-top: 10px;
     padding-inline: 50px;
-    color: white;
+    color: black;
    
     
   }
@@ -240,6 +246,7 @@ font-size: 1.1rem;
 }
 #titre{
   font-size: 1.1rem!important;
+  font-weight: 400;
  
  
   
