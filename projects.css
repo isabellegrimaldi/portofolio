@@ -6,7 +6,7 @@ main{
 .case_project img{
     display: block;
     margin: auto;
-    width: 70vw;
+    width: 30vw;
     
     
 }
@@ -26,6 +26,10 @@ main{
     
 }
 
+#projects{
+    margin: 0 100px;
+}
+
 @media (max-width: 1130px) {
     #titre_nav {
      font-size: 1.2rem;
@@ -38,9 +42,22 @@ main{
     
       #projet_h2 {
           margin-bottom: 30px;
-          padding-top: 20px;
+          padding-top: 40px;
       }
     
       .case_project h2 {
           font-size: 17px;
       }}
+
+
+
+      .container_projects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+      
+      }
+
+      .case_container{
+          padding: 20px;
+      }

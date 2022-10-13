@@ -551,12 +551,12 @@ font-size: 1.1rem;
 
 #projet_h2{
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
   margin-top: 1px;
-  margin-bottom: 70px;
+
   
-  
-  font-weight: 10;
+  font-size: 3rem !important;
+  font-weight: bold;
   color: #D08539;
  
 }
@@ -839,3 +839,21 @@ color: rgb(53, 53, 53);
   text-align: center;
   padding-bottom: 20px;
 }
+
+#relative{
+  height: 250px;
+  
+  position: relative;
+}
+
+#absolute{
+  letter-spacing: 0.5rem;
+  position: absolute;
+  top:80;
+  overflow: hidden;
+  left: 50%;
+  font-size: 4rem;
+  color: #d6c5b36f;
+  z-index: -3;
+}
+
