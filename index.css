@@ -619,6 +619,15 @@ font-size: 1.1rem;
      
 
       @media (max-width: 1130px) {
+
+        .slider-container{
+          display:none !important;
+        }
+
+        .container-petit{
+          display:  block!important;
+        }
+        
         #titre_nav {
          font-size: 1.2rem;
           
@@ -679,6 +688,7 @@ font-size: 1.1rem;
             }
 
             .fw-slider_item {
+              cursor:default;
               position: relative;
               overflow: hidden;
               width: 10rem;
@@ -816,4 +826,16 @@ font-size: 1.1rem;
 color: rgb(53, 53, 53);
   font-size: 0.9rem;
   font-weight: 10;
+}
+
+
+.container-petit{
+  margin: 50px;
+  display: none;
+}
+
+.container-petit h2{
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
 }
