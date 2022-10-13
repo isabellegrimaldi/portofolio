@@ -369,7 +369,7 @@ html{
       
       display: flex;
       overflow-y: hidden !important;
-      padding-top: 70px;
+      
       padding-bottom: 100px;
      
       
@@ -430,12 +430,7 @@ text-orientation: sideways-left;
     display: flex;
   }
   
-  span {
-    margin: auto;
-    margin-top: 20px;
-    font-size: 1rem;
-    color: white;
-  }
+ 
   
   
   .carousel__face:nth-child(1) {
@@ -493,7 +488,7 @@ text-orientation: sideways-left;
   .ligne{
     display: flex;
     flex-direction: row;
-margin-top: 30px;
+margin-top: 15px;
   }
   .logo{
    display: block;
@@ -544,7 +539,8 @@ font-size: 1.1rem;
 }
 #titre{
   font-size: 1.1rem!important;
-  font-weight: 400;
+  font-weight: 350;
+ 
  
  
   
@@ -664,3 +660,160 @@ font-size: 1.1rem;
                }
 
 
+
+
+
+               .slider-container {
+                position: relative;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                width: 100%;
+                height: 100%;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                margin-top: 100px;
+            }
+
+            .fw-slider_item {
+              position: relative;
+              overflow: hidden;
+              width: 10rem;
+              height: 100%;
+              min-height: 80vh;
+              -webkit-box-orient: horizontal;
+              -webkit-box-direction: normal;
+              -webkit-flex-direction: row;
+              -ms-flex-direction: row;
+              flex-direction: row;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              -webkit-transition: all 350ms ease;
+              transition: all 350ms ease;
+          }
+          .fw-slider_wrap {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            min-height: 80vh;
+            min-width: 40vw;
+            padding: 2rem 2rem 2rem 10rem;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .fw-slider_content-container {
+          position: relative;
+          z-index: 5;
+      }
+      .fw-slider_background {
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        right: 0%;
+        bottom: 0%;
+        z-index: -1;
+        background-image: url(https://assets.website-files.com/6340347…/63403c2…_Capture%20d%E2%80%99e%CC%81cran%202022-10-07%20a%CC%80%2016.34.23.png);
+        background-position: 0px 0px;
+        background-size: cover;
+    }
+
+    .fw-slider_title-wrapper {
+      position: absolute;
+      left: 3.75rem;
+      top: 50%;
+      right: auto;
+      bottom: auto;
+      z-index: 5;
+      -webkit-transform: translate(0px, -50%);
+      -ms-transform: translate(0px, -50%);
+      transform: translate(0px, -50%);
+  }
+
+  .active {
+    width: 40vw;
+}
+
+.fw-slider_title {
+  margin-right: 0px;
+  margin-left: 0px;
+  color: #fbfbfb;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -6px;
+  text-transform: none;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.fw-slider_background1{
+ 
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 0;
+  background-color: #e39d51ea;
+  opacity: 0.8;
+}
+.fw-slider_background2{
+ 
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 0;
+  background-color: #daaa76ea;
+  opacity: 0.8;
+}
+.fw-slider_background3{
+ 
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 0;
+  background-color: #bba389ea;
+  opacity: 0.8;
+}
+.fw-slider_background4{
+ 
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 0;
+  background-color: #cac3bcea;
+  opacity: 0.8;
+}
+
+.intitule{
+  font-weight: 400;
+  color: black!important;
+}
+
+.date{
+  
+  font-size: 0.9rem;
+}
+
+.explic{
+color: rgb(53, 53, 53);
+  font-size: 0.9rem;
+  font-weight: 10;
+}
