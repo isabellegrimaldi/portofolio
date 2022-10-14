@@ -9,7 +9,27 @@ main{
     margin: auto;
     width: 30vw;
     
+  
     
+    
+}
+.cursor_bike{
+    cursor:url(cursor_bike.png),auto !important;
+}
+
+.cursor_spoon{
+    cursor:url(cursor_spoon.png),auto !important;
+}
+
+.cursor_wind{
+    cursor:url(cursor_wind.png),auto !important;
+}
+
+.cursor_feelfood{
+    cursor:url(cursor_feelfood.png),auto !important;
+}
+.cursor_gaspard{
+    cursor:url(cursor_gaspard.png),auto !important;
 }
 
 .case_project h2{
@@ -22,7 +42,7 @@ main{
 }
 
 .case_project:hover{
- opacity: 90%;
+ opacity: 50%;
 
     
     
