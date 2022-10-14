@@ -65,6 +65,7 @@ main{
       #projet_h2 {
           margin-bottom: 30px;
           padding-top: 40px;
+          
       }
     
       .case_project h2 {
@@ -82,4 +83,9 @@ main{
 
       .case_container{
           padding: 20px;
+      }
+
+
+      .container_projects h2{
+          font-weight: 350;
       }

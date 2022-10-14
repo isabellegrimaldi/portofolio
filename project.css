@@ -17,11 +17,28 @@ main{
   margin-top: 100px;
   overflow-x: hidden;
 }
+
+#cursorgaspard{
+  cursor:url("cursor_gaspard.png"),pointer;
+}
+#cursorhalfbike{
+  cursor:url("cursor_bike.png"),pointer;
+}
+.cursorfeelfood{
+  cursor:url("cursor_feelfood.png"),pointer;
+}
+#cursorturbine{
+  cursor:url("cursor_wind.png"),pointer;
+}
+.cursorspoon{
+  cursor:url("cursor_spoon.png"),pointer !important;
+}
 .menu{
  
   padding: 10px;
+  width: 40vw;
   position: absolute;
-  top:50%;
+  top:55%;
   left:50%;
   transform: translate(-50%, -50%);
 }
@@ -61,6 +78,7 @@ main{
   position: relative;
   width: 100vw;
   height: 90vh;
+  
 
 }
 
@@ -111,7 +129,8 @@ video{
 #pres{
   margin: auto;
   display: block;
-  width: 55vw;
+  width: 35vw;
+ 
 }
 
 iframe{
@@ -164,4 +183,69 @@ iframe{
       margin: auto;
       margin-block: 10px;
     }
+    }
+
+
+    #projet_h2{
+      text-align: center;
+      padding-top: 50px;
+      margin-top: 1px;
+   
+    
+      
+      font-size: 3rem !important;
+      font-weight: bold;
+      color: #D08539;
+      
+      min-width: 500px;
+      animation-duration: 2s;
+      animation-name: gauche;
+      
+     
+    }
+   
+    
+
+    @keyframes gauche {
+      0% {
+        padding-top: 50px;
+        margin-right: 70vw;
+          }
+        100% {
+         
+          
+        }
+        
+    }
+
+    #absolute{
+      letter-spacing: 0.5rem;
+      position: absolute;
+    top: 70;
+      overflow: hidden;
+      left: 45%;
+      font-size: 4rem;
+      color: #d6c5b36f;
+      width: 100vw;
+      z-index: -3;
+      min-width: 500px;
+      animation-duration: 2s;
+      animation-name: droite;
+    }
+
+    @keyframes droite {
+      0% {
+      left: 80%;
+        top: 70;
+          }
+        100% {
+          left: 45%;
+          top: 70;
+          
+        }
+        
+    }
+
+    #relative{
+      margin-bottom: 100px;
     }
