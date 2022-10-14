@@ -366,7 +366,7 @@ html{
 
   #projet {
     background-color:  #d08539;
-      
+    scroll-behavior: smooth !important;
       display: flex;
       overflow-y: hidden !important;
       
@@ -857,3 +857,6 @@ color: rgb(53, 53, 53);
   z-index: -3;
 }
 
+body{
+  scroll-behavior: smooth;
+}
