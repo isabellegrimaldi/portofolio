@@ -379,12 +379,13 @@ html{
   #projet_text{
     animation-name: textanim;
     animation-duration: 2s;
-    writing-mode: vertical-rl;
+   
 text-orientation: sideways-left;
     margin-left: 0px;
     padding-top: 55%;
     font-size: 5rem;
    color: white;
+   transform: rotate(-90);
     transform: translateY(-50%);
     position: relative;
   }
@@ -761,10 +762,11 @@ font-size: 1.1rem;
   font-size: 2.5rem;
   line-height: 1;
   font-weight: 700;
-  letter-spacing: -6px;
+  letter-spacing: 10px;
+transform: rotate(180deg);
   text-transform: none;
   writing-mode: vertical-rl;
-  text-orientation: upright;
+  
 }
 
 .fw-slider_background1{
