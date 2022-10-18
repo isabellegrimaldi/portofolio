@@ -764,6 +764,7 @@ font-size: 1.1rem;
   font-weight: 700;
   letter-spacing: 10px;
 transform: rotate(180deg);
+justify-content: center;
   text-transform: none;
   writing-mode: vertical-rl;
   
