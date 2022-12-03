@@ -61,6 +61,11 @@ main{
         width: 90vw;
 
       }
+
+      .party2{
+          margin: 10%;
+          padding: 0px;
+      }
     
       #projet_h2 {
           margin-bottom: 30px;
