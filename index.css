@@ -860,6 +860,6 @@ color: rgb(53, 53, 53);
   z-index: -3;
 }
 
-body{
+html {
   scroll-behavior: smooth;
 }
