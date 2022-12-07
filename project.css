@@ -85,9 +85,10 @@ main{
 .party2{
   position: relative;
   width: 100vw;
-padding-inline: 150px;
+padding-inline: 50px;
   margin-bottom: 70px;
 }
+
 h3{
   color: grey;
   font-size: 2rem;
@@ -156,11 +157,23 @@ iframe{
    margin-top: 20px;
   }}
 
-
+.party2{
+  padding:0 150px;
+}
   @media (max-width: 1130px) {
+    
     h2{
       font-size: 20px;
       margin-top: 20px;
+    }
+    .party2{
+      padding:60% 50px;
+    }
+
+    .caroussel{
+      padding-top: 200px;
+      margin: auto;
+      width: 70%;
     }
 
     .menu{
@@ -249,4 +262,14 @@ iframe{
 
     #relative{
       margin-bottom: 100px;
+    }
+
+    @media (max-width: 1130px) {
+      #absolute{
+        font-size: 1.2rem;
+      }
+      #projet_h2{
+        font-size: 1.3rem !important;
+        margin:20px auto;
+      }
     }

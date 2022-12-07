@@ -52,16 +52,19 @@ main{
     margin: 0 100px;
 }
 
+@media (max-width: 900px) {
+    .case_project img {
+        width: 60vw;
+
+      }
+    }
+
 @media (max-width: 1130px) {
     #titre_nav {
      font-size: 1.2rem;
       
     }
-    .case_project img {
-        width: 90vw;
-
-      }
-
+    
       .party2{
           margin: 10%;
           padding: 0px;

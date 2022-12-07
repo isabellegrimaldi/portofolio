@@ -650,7 +650,7 @@ font-size: 1.1rem;
              margin: auto;
              display: block !important;
              padding-right: 0px;
-             padding: 30px;
+             padding: 60px 30px;
             }}
 
             @media (max-width: 1130px) {
@@ -662,6 +662,8 @@ font-size: 1.1rem;
               }}
 
               @media (max-width: 1130px) {
+
+               
                 #flexx {
                  flex-direction: column;
                  margin-bottom: 20px;
@@ -846,6 +848,7 @@ color: rgb(53, 53, 53);
 #relative{
   height: 250px;
   
+  
   position: relative;
 }
 
@@ -859,6 +862,21 @@ color: rgb(53, 53, 53);
   color: #d6c5b36f;
   z-index: -3;
 }
+@media (max-width: 1130px) {
+  #absolute{
+    font-size: 1.5rem;
+  }
+  #projet_h2{
+    font-size: 2.5rem !important;
+  }
+  #relative{
+    height: 150px;
+  }
+
+  
+}
+
+
 
 html {
   scroll-behavior: smooth;
